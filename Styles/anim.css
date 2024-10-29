@@ -1,0 +1,23 @@
+@keyframes moveUpDown {
+  0% {
+    stroke: #3131318f;
+    margin-top: 0;
+  }
+  50% {
+    stroke: white;
+    margin-top: 30px;
+  }
+  100% {
+    stroke: #3131318f;
+    margin-top: 0;
+  }
+}
+
+@keyframes moveForward {
+  0% {
+    margin-left: -1400px;
+  }
+  100% {
+    margin-left: 1400px;
+  }
+}
